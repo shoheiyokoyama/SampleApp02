@@ -9,14 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-{
-    IBOutlet UIScrollView* portScrollView;
-}
 
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
-//イメージの配列を格納
 @property (strong, atomic) NSArray *imageArray;
-//imageArrayの選択されている要素のインデックスを格納
 @property (assign) int imageArraySelectedIndex;
-
 @end
+
