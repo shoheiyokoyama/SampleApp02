@@ -17,14 +17,15 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView tag="1" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="j1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="jT4-nv-imE">
-                                <rect key="frame" x="69" y="111" width="183" height="308"/>
+                                <rect key="frame" x="69" y="66" width="183" height="308"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uHr-JT-YvC">
                                 <rect key="frame" x="69" y="420" width="162" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="説明">
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="次へ">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -56,38 +57,46 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nDe-Al-VsS">
-                                <rect key="frame" x="0.0" y="4" width="320" height="560"/>
+                                <rect key="frame" x="0.0" y="31" width="320" height="560"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">時に、過去を知ることは未来の成長にとって必要不可欠だという事を知りました。
-自然界では、生物はあらゆる環境に対して「進化」というかたちで順応してきました。長い時間を掛けて、子孫を残すために自然のあるがままの姿に対して柔軟に対応してきたという事実があります。
-地球が誕生してから46億年。
-僅か500万年前に類人猿から分化した人類は、現代社会において進化することを止めてしまったのでしょうか。
-現人類が繁栄してきた背景には、「世界を変えたい」という想いが常にあったのだと思います。自然の原則に従って自らを変えるのではなく「変えたい」と思うのは、後にも先にも人類だけではないのでしょうか。
-人類にとって不都合なものは取り除き、道具を使い、より快適に、より便利に、自分たちの繁栄のためにやってきたことは、「進化」ではなく「成長」の歴史だったと思います。
-今現在においても「世界を変えたい」という願望は消えず、むしろ一層その想いは強くなっています。そもそも、「変えたい」という想いのゴールは何処にあるのでしょうか？
-</string>
+                                <mutableString key="text">人類が世界を変えたいというその世界の中心は、自分自身に他ならないからである。　　　　　　人は自分を中心とした世界を持っていて、自分の認識している物事全てを総称して「世界」と呼ぶ。100人いれば100通りの「世界」があり、「世界を変えたい」という願望は、自分自身にとって最も理想的な状態へと向かおうとする思考回路である。　　
+
+　　　　　　　
+それは自分以外の何かのためにそうする事が「良かれ」と思っている自分がいる状態であって、その願いの先には、必ず自分の救われる姿が映っているからです。
+例え自らの命と引き換える事になったとしても、人は願望を追い求める</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="その答えは一生出ないという事を確信する" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B39-gI-s0r">
+                                <rect key="frame" x="9" y="76" width="303" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="自分意外への願望は、この世には存在しない" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oxW-bW-yiV">
+                                <rect key="frame" x="9" y="247" width="357" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G4d-K5-bYo">
+                                <rect key="frame" x="116" y="426" width="57" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="次へ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Sm7-BG-kVN" kind="push" id="Yeq-ZW-K7y"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="進化を止めて目指す所は.." id="jud-De-Pwi">
-                        <barButtonItem key="rightBarButtonItem" title="Item" style="plain" id="0rF-cc-iBX">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bCO-xz-OtF">
-                                <rect key="frame" x="261" y="7" width="43" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="twitter">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Sm7-BG-kVN" kind="push" id="hyH-3T-vyL"/>
-                                </connections>
-                            </button>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="進化を止めて目指す所は.." id="jud-De-Pwi"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mKU-Qm-d53" userLabel="First Responder" sceneMemberID="firstResponder"/>
