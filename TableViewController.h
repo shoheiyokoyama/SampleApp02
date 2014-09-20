@@ -9,9 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface TableViewController : UITableViewController
-{
-    NSArray *statuses;
-}
+
 - (IBAction)press:(id)sender;
 
 @end
